@@ -1,0 +1,22 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+@import "base/reset";
+
+@import "components/redes-sociales";
+@import "components/navbar";
+@import "components/buttons";
+
+@import "layout/header";
+@import "layout/datos-personales";
+@import "layout/experiencia";
+@import "layout/educacion";
+@import "layout/habilidades";
+@import "layout/contacto";
+@import "layout/avatar";
+
+@import "pages/about";
+@import "pages/footer";
+@import "pages/home";
+
+@import "vendors/scss/bootstrap.scss";

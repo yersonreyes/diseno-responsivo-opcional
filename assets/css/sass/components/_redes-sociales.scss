@@ -1,0 +1,18 @@
+.redes-sociales {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  li {
+  }
+
+  a {
+    font-size: 40px;
+    color: $color-gray;
+    text-decoration: none;
+  }
+}

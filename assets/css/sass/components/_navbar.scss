@@ -1,0 +1,18 @@
+.navegacion {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color-gray;
+
+    &:hover {
+      text-decoration: none;
+      color: $color-gray;
+      opacity: 0.5;
+    }
+  }
+}

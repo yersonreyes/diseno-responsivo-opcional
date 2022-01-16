@@ -1,0 +1,27 @@
+.datos-personales {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  border-bottom: 1px solid $color-gray;
+  h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-gray;
+  }
+
+  h6 {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: $color-gray;
+
+    span {
+      font-weight: normal;
+      text-transform: initial;
+    }
+  }
+
+  p {
+    margin-top: 2rem;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,43 @@
+.experiencia {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid $color-gray;
+  h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-gray;
+  }
+}
+
+.experiencia-item {
+  position: relative;
+  margin-top: 3rem;
+
+  h4 {
+    font-size: 1.25rem;
+    margin: 0;
+    margin-bottom: 2rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color-gray;
+
+    span {
+      font-weight: 300;
+      text-transform: initial;
+      font-size: 1rem;
+    }
+  }
+
+  p {
+    font-weight: 300;
+  }
+}
+
+.date {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
